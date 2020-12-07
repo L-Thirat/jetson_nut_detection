@@ -4,7 +4,7 @@
 
 item {
     id: 1
-    name:'nut'
+    name:'dog'
 }
 
 #item {
