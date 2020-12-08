@@ -1,7 +1,7 @@
 <annotation>
-	<folder>train</folder>
-	<filename>Image2.jpg</filename>
-	<path>C:\Users\thirat\Documents\git\labelImg\dataset\images\train\Image2.jpg</path>
+	<folder>dataset</folder>
+	<filename>Img.1.40.jpg</filename>
+	<path>C:\Users\thirat\Documents\git\labelImg\dataset\Img.1.40.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>129</xmin>
-			<ymin>419</ymin>
-			<xmax>171</xmax>
-			<ymax>460</ymax>
+			<xmin>92</xmin>
+			<ymin>153</ymin>
+			<xmax>121</xmax>
+			<ymax>184</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>205</xmin>
-			<ymin>419</ymin>
-			<xmax>246</xmax>
-			<ymax>460</ymax>
+			<xmin>322</xmin>
+			<ymin>324</ymin>
+			<xmax>350</xmax>
+			<ymax>352</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>565</xmin>
-			<ymin>127</ymin>
-			<xmax>612</xmax>
-			<ymax>175</ymax>
+			<xmin>380</xmin>
+			<ymin>326</ymin>
+			<xmax>405</xmax>
+			<ymax>353</ymax>
 		</bndbox>
 	</object>
 </annotation>
