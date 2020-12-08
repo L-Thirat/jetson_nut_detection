@@ -1,13 +1,13 @@
 <annotation>
 	<folder>train</folder>
-	<filename>IMG_20201208_093609.jpg</filename>
-	<path>C:\Users\thirat\Documents\git\labelImg\dataset\images\train\IMG_20201208_093609.jpg</path>
+	<filename>Image3.jpg</filename>
+	<path>C:\Users\thirat\Documents\git\labelImg\dataset\images\train\Image3.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>2976</width>
-		<height>3968</height>
+		<width>3968</width>
+		<height>2976</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>673</xmin>
-			<ymin>704</ymin>
-			<xmax>923</xmax>
-			<ymax>971</ymax>
+			<xmin>666</xmin>
+			<ymin>1991</ymin>
+			<xmax>938</xmax>
+			<ymax>2250</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>602</xmin>
-			<ymin>1192</ymin>
-			<xmax>852</xmax>
-			<ymax>1454</ymax>
+			<xmin>1163</xmin>
+			<ymin>2050</ymin>
+			<xmax>1429</xmax>
+			<ymax>2313</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>2032</xmin>
-			<ymin>3602</ymin>
-			<xmax>2298</xmax>
-			<ymax>3910</ymax>
+			<xmin>3604</xmin>
+			<ymin>582</ymin>
+			<xmax>3913</xmax>
+			<ymax>854</ymax>
 		</bndbox>
 	</object>
 </annotation>
