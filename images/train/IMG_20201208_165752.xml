@@ -1,7 +1,7 @@
 <annotation>
-	<folder>train</folder>
-	<filename>Img.1.8.jpg</filename>
-	<path>C:\Users\thirat\Documents\git\labelImg\dataset\images\train\Img.1.8.jpg</path>
+	<folder>doing</folder>
+	<filename>IMG_20201208_165752.jpg</filename>
+	<path>C:\Users\thirat\Documents\git\labelImg\dataset\doing\IMG_20201208_165752.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>447</xmin>
-			<ymin>10</ymin>
-			<xmax>476</xmax>
-			<ymax>40</ymax>
+			<xmin>27</xmin>
+			<ymin>102</ymin>
+			<xmax>85</xmax>
+			<ymax>157</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>176</xmin>
-			<ymin>263</ymin>
-			<xmax>204</xmax>
-			<ymax>292</ymax>
+			<xmin>500</xmin>
+			<ymin>159</ymin>
+			<xmax>542</xmax>
+			<ymax>199</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,22 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>502</xmin>
-			<ymin>361</ymin>
-			<xmax>526</xmax>
-			<ymax>387</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>dog</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>435</xmin>
-			<ymin>371</ymin>
-			<xmax>469</xmax>
-			<ymax>402</ymax>
+			<xmin>568</xmin>
+			<ymin>201</ymin>
+			<xmax>612</xmax>
+			<ymax>242</ymax>
 		</bndbox>
 	</object>
 </annotation>
