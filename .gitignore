@@ -1,3 +1,7 @@
 HR/
 tt/
 org/
+.idea
+models/
+temp/
+trained_pb
