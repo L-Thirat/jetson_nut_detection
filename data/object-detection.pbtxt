@@ -16,3 +16,8 @@ item {
     id: 3
     name: 'cross'
 }
+
+item {
+    id: 4
+    name: 'ng'
+}

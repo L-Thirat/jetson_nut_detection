@@ -1,7 +1,7 @@
 <annotation>
 	<folder>RESIZE</folder>
 	<filename>re_20210223_132744(017)_No.16.jpg</filename>
-	<path>H:\Users\02_&#35373;&#35336;&#12539;&#35069;&#36896;&#37096;\&#21046;&#24481;&#35373;&#35336;&#35506;\thirat\PROJECTS\labelImg\dataset\RESIZE\re_20210223_132744(017)_No.16.jpg</path>
+	<path>H:\Users\02_&#35373;&#35336;&#12539;&#35069;&#36896;&#37096;\&#21046;&#24481;&#35373;&#35336;&#35506;\thirat\PROJECTS\labelImg\dataset\RESIZE_NG\re_20210223_132744(017)_No.16.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>round</name>
+		<name>ng</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>round</name>
+		<name>ng</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>cross</name>
+		<name>ng</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>cross</name>
+		<name>ng</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>cross</name>
+		<name>ng</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
