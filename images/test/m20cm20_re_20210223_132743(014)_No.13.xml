@@ -1,7 +1,7 @@
 <annotation>
 	<folder>RESIZE</folder>
-	<filename>m20cm20_re_20210223_132744(015)_No.14.jpg</filename>
-	<path>H:\Users\02_&#35373;&#35336;&#12539;&#35069;&#36896;&#37096;\&#21046;&#24481;&#35373;&#35336;&#35506;\thirat\PROJECTS\labelImg\dataset\RESIZE_NG\m20cm20_re_20210223_132744(015)_No.14.jpg</path>
+	<filename>m20cm20_re_20210223_132743(014)_No.13.jpg</filename>
+	<path>H:\Users\02_&#35373;&#35336;&#12539;&#35069;&#36896;&#37096;\&#21046;&#24481;&#35373;&#35336;&#35506;\thirat\PROJECTS\labelImg\dataset\RESIZE_NG\m20cm20_re_20210223_132743(014)_No.13.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,18 +69,6 @@
 			<ymin>274</ymin>
 			<xmax>262</xmax>
 			<ymax>296</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>base</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>416</xmin>
-			<ymin>122</ymin>
-			<xmax>452</xmax>
-			<ymax>356</ymax>
 		</bndbox>
 	</object>
 </annotation>

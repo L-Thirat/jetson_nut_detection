@@ -16,16 +16,17 @@ from object_detection.utils import ops as utils_ops
 from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as vis_util
 import time
+
 # import cv2
 
 
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_CKPT = 'trained_pb' + '/frozen_inference_graph.pb'
+PATH_TO_CKPT = 'trained_pb/ssd_mobilenetv2' + '/frozen_inference_graph.pb'
 
 # List of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = 'data/object-detection.pbtxt'
 
-NUM_CLASSES = 1
+NUM_CLASSES = 4
 
 detection_graph = tf.Graph()
 with detection_graph.as_default():
@@ -75,8 +76,11 @@ def load_image_into_numpy_array(image):
 # image1.jpg
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
-PATH_TO_TEST_IMAGES_DIR = 'images/test'
-TEST_IMAGE_PATHS = [os.path.join(PATH_TO_TEST_IMAGES_DIR, 'Image{}.jpg'.format(i)) for i in range(1, 13)]
+PATH_TO_TEST_IMAGES_DIR = 'images/test/'
+TEST_IMAGE_PATHS = []
+for filename in os.listdir(PATH_TO_TEST_IMAGES_DIR):
+    if filename.endswith(".jpg"):
+        TEST_IMAGE_PATHS.append(PATH_TO_TEST_IMAGES_DIR + filename)
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
@@ -113,7 +117,7 @@ with detection_graph.as_default():
                     category_index=category_index,
                     use_normalized_coordinates=True,
                     line_thickness=8,
-                    min_score_thresh=0.75)
+                    min_score_thresh=0.01)
                 plt.figure(figsize=IMAGE_SIZE)
                 plt.imshow(image_np)
                 plt.imsave('%dimage.png' % i, image_np)
