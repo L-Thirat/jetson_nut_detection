@@ -59,7 +59,6 @@
 			<ymax>296</ymax>
 		</bndbox>
 	</object>
-	</object>
 	<object>
 		<name>base</name>
 		<pose>Unspecified</pose>
