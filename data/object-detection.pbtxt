@@ -19,5 +19,5 @@ item {
 
 item {
     id: 4
-    name: 'base'
+    name: 'ng'
 }
