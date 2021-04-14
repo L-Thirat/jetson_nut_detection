@@ -1,0 +1,20 @@
+item {
+    name: "base",
+    id: 1,
+    display_name: "base"
+}
+item {
+    name: "cross",
+    id: 2,
+    display_name: "cross"
+}
+item {
+    name: "ng",
+    id: 3,
+    display_name: "ng"
+}
+item {
+    name: "round",
+    id: 4,
+    display_name: "round"
+}

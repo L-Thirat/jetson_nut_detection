@@ -3,9 +3,5 @@ tt/
 org/
 .idea
 models_tf1/
-
-trained_pb
-results/
-
 models_tf1/
 protoc/
